@@ -2,7 +2,6 @@ package torpedoprojekt;
 
 public class Hajo {
 
-
     public static void main(String[] args) {
         private int[] poz;
     
@@ -15,8 +14,7 @@ public class Hajo {
         while (i<N && !(poz[i]==poz)) {
         i++;
         }
-        return i < N ? "nem talált";
+        return i < N;
     }
     }
-
 }
